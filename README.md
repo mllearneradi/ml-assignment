@@ -97,16 +97,6 @@ Recall : 0.3610
 F1 : 0.4655
 MCC : 0.3896
 
-Observation on each model :
-
-ML Model Name : 
-Accuracy : 81.6667
-AUC : 0.7815
-Precision : 0.6553
-Recal : 0.3610 
-F1 : 0.4655
-MCC : 0.3896
-
 Logistic Regression :
 For Logistic Regression, while training and splitting the data, the data was equally split into positive and negative class. 
 So, accuracy can be considered as good estimator. But for credit card default prediction, False Negative is of utmost importance. Hence, Recall is important in this case.
