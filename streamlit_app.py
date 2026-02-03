@@ -16,7 +16,7 @@ st.markdown(
 
 uploaded_file = st.file_uploader(
     "Upload your CSV file",
-    type=["csv", "xlsx"]
+    type=["csv"]
 )
 
 global X_test
